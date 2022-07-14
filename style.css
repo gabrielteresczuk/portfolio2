@@ -68,6 +68,11 @@ header{
     color: #FFFFFF;
 }
 
+.navbar .active{
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
 /* Underline From Left */
 .hvr-underline-from-left {
     display: inline-block;
@@ -373,6 +378,7 @@ padding: 10px;
     column-gap: 5px;
 }
 
+
 .redes{
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
@@ -381,11 +387,15 @@ padding: 10px;
     font-size: 20px;
 }
 
-.redes:hover{
+
+.redes:hover {
     background-color: #FFFFFF;
     color: #0093e9;
     cursor: pointer;
 }
+
+
+
 
 .footerNav ul{
     display: flex;
@@ -395,6 +405,12 @@ padding: 10px;
 .footerNav ul li{
     padding: 5px;
     color: #FFFFFF;
+}
+
+.footerNav ul li a{
+    padding: 5px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footerNav ul li:hover{
