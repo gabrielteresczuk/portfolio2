@@ -198,7 +198,6 @@ padding: 10px;
     width: 100%;
     max-width: 1200px;
     background-color: transparent;
-    
 }
 
 .contenidoTitulo{
@@ -420,6 +419,77 @@ padding: 10px;
 
 /*footer*/
 
+/*acerca*/
+
+.contenido-acerca{
+    width: 100%;
+    max-width: 1200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 25px 10px 25px 10px;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.contenido-acerca h1{
+    font-size: 3rem;
+    color: #212121;
+}
+
+.contenido-acerca h2{
+    font-size: 2rem;
+    color: #424242;
+    padding: 25px;
+}
+
+.contenido-acerca p{
+    font-size: 1.2rem;
+    width: 100%;
+    color: #616161;
+}
+
+.contenido-acerca p em{
+    color: #9E9E9E;
+}
+
+.acerca__ul--habilidades{
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #616161;
+}
+
+.acerca__profile{
+    width: 100%;
+    height: auto;
+}
+
+.acerca__ul--tecnologias{
+    font-size: 2.5rem;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.acerca__ul--tecnologias li{
+    border: 1px solid #0093e9;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #0093e9;
+    color: #FFFFFF;
+}
+.acerca__ul--tecnologias li span{
+    font-size: 1rem;
+}
+
+
+/*acerca*/
 
 
 /*media queries*/
@@ -470,6 +540,9 @@ padding: 10px;
     }
     
 }
+
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     
